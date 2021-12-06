@@ -1,0 +1,60 @@
+body {
+    background-color: #E8E8E8;
+}
+
+header {
+    background-color: #edff00;
+}
+
+.nav-item:hover {
+    background-color: #ffd400;
+}
+
+
+.sectionTitle {
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.card {
+    width: 80%;
+    margin: auto;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 5px grey;
+
+}
+
+.card-img-top {
+    height: 232px;
+}
+
+.cardButton {
+    background-color: #edff00;
+    width: 100%;
+}
+
+.cardButton:hover {
+    background-color: #ffd400;
+}
+
+
+.parrafoCazanoticias {
+    text-align: center;
+}
+
+.modalButton {
+    background-color: #edff00;
+    color: black;
+}
+
+.modalButton:hover {
+    background-color: #ffd400;
+    color: black;
+}
+
+footer {
+    background-color: #edff00;
+    height: 5rem;
+}
