@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: #edff00;
+    background-color: #F3A953;
 }
 
 .nav-item:hover {
@@ -31,7 +31,7 @@ header {
 }
 
 .cardButton {
-    background-color: #edff00;
+    background-color: #F3A953;
     width: 100%;
 }
 
@@ -45,7 +45,7 @@ header {
 }
 
 .modalButton {
-    background-color: #edff00;
+    background-color: #F3A953;
     color: black;
 }
 
@@ -55,6 +55,6 @@ header {
 }
 
 footer {
-    background-color: #edff00;
+    background-color: #F3A953;
     height: 5rem;
 }
