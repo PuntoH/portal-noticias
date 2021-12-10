@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a8a0ae94a2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+
+    <title>Claudio's News</title>
+</head>
+
+<body>
+
+  <!-- Navbar con Sticky Top -->
+
+    <header class="container-fluid sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+              <a href="index.html"><img src="static/logo-claudio-news.png" alt="logo claudio news"></a>
+                    <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#dropDownMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               <div class="collapse navbar-collapse" id="dropDownMenu">
+                    <ul class="navbar-nav ml-auto text-right">
+                        <li class="nav-item">
+                            <a href="#deportes" class="nav-link text-dark">Deportes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#internacional" class="nav-link text-dark">Internacional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#tecnologia" class="nav-link text-dark">Tecnología</a>
+                        </li>
+                    </ul>
+                </div>    
+            </div>  
+        </nav>
+    </header>
+
+    <main>
+        <hr>
+        <h1 class="sectionTitle mb-4">Municipio aprueba polémica construcción</h1>
+        <hr>
+
+        <div class="container text-center">
+
+            <div class="row mb-5">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-8">
+                      <img src="static/Autopista.jpg" alt="autopista">
+              </div>
+              <div class="col-sm-2"></div>
+            </div> 
+
+            <div class="row mb-5">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-8">
+              <p>El municipio de Santiago aprobó la construcción de una autopista que cruzará el Cerro Santa Lucía. Los vecinos de la comuna se manifestaron en contra del proyecto.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores fuga dolorum dolorem tempora non molestias quae harum, nesciunt eaque inventore quaerat at saepe voluptate aperiam odio cum vitae aspernatur expedita!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores fuga dolorum dolorem tempora non molestias quae harum, nesciunt eaque inventore quaerat at saepe voluptate aperiam odio cum vitae aspernatur expedita!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores fuga dolorum dolorem tempora non molestias quae harum, nesciunt eaque inventore quaerat at saepe voluptate aperiam odio cum vitae aspernatur expedita!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores fuga dolorum dolorem tempora non molestias quae harum, nesciunt eaque inventore quaerat at saepe voluptate aperiam odio cum vitae aspernatur expedita!</p>
+              </div>
+              <div class="col-sm-2"></div>
+            </div>
+        </div>             
+
+
+<!-- Sección Cazanoticias -->
+<hr>
+  <div class="container">
+      <div class=" text-center">
+      <h3 class="sectionTitle">Ayúdanos</h3>
+      <p class="parrafoCazanoticias">Si te gustaría que investiguemos algún tema en particular sobre el cual tú tengas antecedentes que aportar, puedes hacer clic en "Cuéntanos tu noticia" para completar un formulario con la información mínima requerida para poder empezar a investigar un hecho noticioso.</p>
+      
+      <!--Botón Modal -->
+    <button type="button" class="btn btn-info btn-lg modalButton mb-4" data-toggle="modal" data-target="#myModal">Cuéntanos tu noticia</button>
+    </div>
+      <!-- Modal -->
+      <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+
+    
+      <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Formulario Cazanoticias</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form action="#">
+
+          <div class="form-group">
+            <label for="usr" class="mr-auto">Nombre:</label>
+            <input type="text" class="form-control" id="usr" placeholder="Juan Soto">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="tucorreo@gmail.com">
+          </div>
+
+          <div class="form-group">
+            <label for="noticiaGente">Por favor cuéntanos tu noticia:</label>
+            <textarea class="form-control" id="noticiaGente" rows="6"></textarea>
+          </div>
+          <button type="submit" class="btn btn-default modalButton">Enviar</button>
+        </form>
+      </div>
+      </div>
+
+  </div>
+</div>
+
+</div>
+
+    </main>
+
+<!-- Footer -->
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <!--Column1-->
+          <ul>
+            <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+            <li><a href="#"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+            <li><a href="#"><i class="fas fa-envelope-open-text"></i>Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p class="copy"> Claudio's News &copy; Copyright 2021</p>
+    </div>
+  </div>
+  </div>
+</footer>
+
+</body>
+</html>
