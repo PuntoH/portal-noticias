@@ -3,7 +3,7 @@ html {
   }
 
 body {
-    background-color: #E8E8E8;
+    background-color: #ecebeb;
 }
 
 header {
@@ -16,7 +16,8 @@ header {
 
 
 hr {
-    background-color: #F3A953;    
+    background-color: #ffb765;
+    height: 1px;    
 }
 
 .sectionTitle {
@@ -24,6 +25,7 @@ hr {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 3.5rem;
 }
+
 
 .carousel-control-next-icon {
     filter: invert(100%);
@@ -100,8 +102,4 @@ footer ul li a {
 
 footer ul li i {
     margin-right: 0.5rem;
-}
-
-.copy {
-    margin-top: 1.5rem;
 }
